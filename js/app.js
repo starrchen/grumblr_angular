@@ -17,13 +17,13 @@
     $stateProvider
     .state("grumbleIndex", {
       url: "/grumbles",
-      templateUrl: "js/grumbles/index.html",
+      templateUrl: "js/grumbles/views/index.html",
       controller: "GrumbleIndexController",
       controllerAs: "GrumbleIndexViewModel"
     })
     .state("grumbleShow", {
       url: "/grumbles/:id",
-      templateUrl: "js/grumbles/show.html",
+      templateUrl: "js/grumbles/views/show.html",
       controller: "GrumbleShowController",
       controllerAs: "GrumbleShowViewModel"
     });
